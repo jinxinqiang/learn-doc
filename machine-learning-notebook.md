@@ -1,4 +1,4 @@
-# learn-doc
+# learn-doc 记录优达机器学习点滴
 机器学习领域的一些最重要的分类算法：
 逻辑回归
 神经网络
@@ -12,9 +12,9 @@ classifier = LogisticRegression()
 （注意：仅适用于 0.18 或更高版本的 scikit-learn）
 from sklearn.neural_network import MLPClassifier
 classifier = MLPClassifier()
-#决策树
+# 决策树
 from sklearn.tree import DecisionTreeClassifier
 classifier = DecisionTreeClassifier()
-#支持向量机
+# 支持向量机
 from sklearn.svm import SVC
 classifier = SVC()
